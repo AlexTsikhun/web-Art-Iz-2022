@@ -2,28 +2,18 @@
 
 display: flex;
 justify-content: space-around;
-/* background-color: #D80073; */
 } 
 .flex-container > * {
-    /* padding: 10px; */
     flex: 1 100%;
   }
   .navigation{
     display: inline-block;
-    /* position: relative; */
-    /* border: 1px solid #000; */
     margin: 0 50px;
 }
 #nav2{
     margin: 0 20px;
 }
-.fle{
-    /* display: flex; */
-    /* justify-content: flex-end;  */
-}
 .caption1{
-    /* display: flex; */
-    /* justify-content: center;  */
     background-color: #F0A30A;
 }
 .caption2{
@@ -44,11 +34,9 @@ justify-content: space-around;
 }
 .fle {
     text-align: right;
-    /* margin: 0 0 20px 0; */
 }
 .flex-container .cont {
     border: 3px solid;
-    /* padding: 100px; */
     margin: 10px;
     background-color: #D5E8D4;
 }
@@ -61,22 +49,15 @@ justify-content: space-around;
 @media (max-width: 768px) { 
     .flex-container{
     flex-flow: column wrap;
-    /* padding: 0; */
     }
 } 
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 992px) { 
     .flex, div {
-        /* display: flex; */
-
         flex: 1 0 0;
         
         flex-flow: row wrap;
-        /* justify-content: center; */
-
-
-    /* background-color: blueviolet; */
  }
 
 }

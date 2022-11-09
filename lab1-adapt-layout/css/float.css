@@ -1,11 +1,40 @@
-.row { 
-width: 100%; 
-margin: 10px;
-} 
+.caption1{
+    /* display: flex; */
+    /* justify-content: center;  */
+    background-color: #F0A30A;
+}
+.caption2{
+    color: #fff;
+    background-color: #D80073;
+}
+.caption3 {
+    background-color: #FAD9D5;
+}
+.fle span {
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid #000;
+    position: relative;
+    top: 5px;
+    left: 2px;
+    padding: 5px 20px;
+}
+.fle {
+    text-align: right;
+    /* margin: 0 0 20px 0; */
+}
+.row .cont {
+    border: 3px solid;
+    margin-bottom: 20px;
+    background-color: #D5E8D4;
+    box-sizing: border-box;
+}
+.row .cont .text{
+    font-size: 20px;
+    padding: 10px 15px 0px 15px;
+    }
 .navigation{
     display: inline-block;
-    /* position: relative; */
-    /* border: 1px solid #000; */
     margin: 0 50px;
 }
 #nav2{
@@ -53,12 +82,11 @@ margin: 10px;
     } 
     .col-sm-12 { 
     width: 100%; 
-    background-color: rgb(89, 11, 184);
     } 
 
-    div{
-        margin: 0 20px 20px 0;
-        background-color: aqua
+    .row{
+        margin: 15px;
+
     }
 } 
 
@@ -84,9 +112,7 @@ margin: 10px;
     width: 41.66%; 
     } 
     .col-md-6 { 
-    width: 50%; 
-
-    background-color: rgb(255, 165, 47);
+    width: 50%;
     }
     .col-md-7 { 
     width: 58.33%; 
@@ -107,16 +133,15 @@ margin: 10px;
     width: 100%; 
     } 
 
-    .item1, .item2{
+    .item1, .item2 {
         float: left;
         width: 47%;
-        /* border: 1px, solid black; */
-        /* margin-right: auto;
-        margin-left: auto; */
         margin: 0 20px 20px 0;
+
     }
+
     .item3{
-        width: 97%;
+        width: 96.5%;
         margin: 0 0 10px 0;
     }
 }
@@ -135,7 +160,6 @@ margin: 10px;
     } 
     .col-lg-3 { 
     width: 25%; 
-    background-color: rgb(11, 184, 49);
     } 
     .col-lg-4 { 
     width: 33.33%; 
@@ -165,9 +189,9 @@ margin: 10px;
     width: 100%; 
     }  
 
-    div{
-        margin: 0 20px 20px 0;
-        /* background-color: aqua */
+    .cont{
+        width: 30%;
+        margin: 15px;
     }
 
 }
