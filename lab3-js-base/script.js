@@ -13,7 +13,8 @@ for (let i = 0; i < names_base.length; i++) {
 /////////////////////////////////////////////////
 console.log(`//////////////////
 ASCII method
-(count for eatch word ascii code):`);
+(count for eatch word ascii code):
+if ascii > 700`);
 
 var names_ascii = ["Finnegan", "Antonio", "Jen", "Jason", "Angelina", "Frank", "Steven", "Larry", "Paula", "Maximilian", "Yan", "David", "Erling", "Paul"];
 
