@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Ajax</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav__links">
+        <li>
+          <a aria-current="page" href="#" onclick="$ns.LoadCategories()">Home</a>
+        </li>
+        <li>
+          <a onclick="$ns.LoadCategories()" aria-current="page" href="#">Catalog</a>
+        </li>
+      </ul>
+  </nav>
+  </header>
+
+  <div id="main-content" class="container"></div>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
